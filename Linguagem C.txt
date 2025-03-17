@@ -1,0 +1,28 @@
+\ /
+
+
+Linguagem C (estudos)
+
+
+1.
+
+int main() {     = USAR SEMPRE ANTES DE UM BLOCO DE CODIGO
+}
+
+
+#include <stdio.h>   = CHAMAR A BIBLIOTECA RESPONSAVEL POR ADICIONAR AS FUNCOES PRINTF
+
+
+
+%d  + no final da string fora do "" passar nome da variavel= Variavel de numero inteiro
+
+Para que o computador leia o que é digitado, utilizaremos scanf(), função que recebe dois parâmetros, sendo o primeiro deles uma string, em que informamos o que será lido pelo programa. Nesse caso, leremos um número inteiro (1, 2, 12, 100...). Indicaremos isso da mesma forma que fizemos com o printf() quando utilizamos %d para colocar um número inteiro. O segundo parâmetro será a variável chute, que armazenará a tentativa do jogador e será inserida após uma vírgula (,).
+
+Um detalhe interessante: teremos que passar um "e" comercial (&) — conceito que estudaremos mais adiante, quando tivermos uma boa base de Linguagem C — antes da variável:
+
+                                                                                   scanf("%d", &chute);
+
+
+
+
+
